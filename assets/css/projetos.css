@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css2?family=Saira&display=swap);
+
+/* INICIO PAGINA DE PROJETOS */
+
+#projetos {
+    background-color: #0f0f106c;
+    padding: 90px 4%;
+}
+
+#projetos h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+}
+
+.breve {
+    color: #fff;
+}
+
+.box-pro i {
+    color: #00ffff;
+    font-size: 40px;
+}
+
+.projetos-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 50px;
+}
+
+.box-pro {
+    height: 190px;
+    width: 300px;
+    padding-top: 12%;
+    text-align: center;
+    justify-content: center;
+    box-shadow: rgba(1, 85, 88, 0.25) 1px 6px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+
+
+.box-pro:hover{
+    transform: scale(1.03);
+    box-shadow: rgb(1, 147, 152) 0 0 8px;
+    animation: girar 3s linear infinite;
+}
+
+@media (max-width: 1024px){
+
+    #projetos {
+        max-height: 165vh;
+        overflow: hidden;
+    }
+
+    .projetos-box {
+        align-items: center;
+        justify-content: center;
+    }
+
+    #projetos h2 {
+        font-size: 32px;
+    }
+}

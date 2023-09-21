@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css2?family=Saira&display=swap);
+
+/* INICIO PAGINA DE FORMULARIO */
+
+.formulario {
+    padding: 40px 4%;
+    background-color: #0f0f106c;
+}
+
+.flex-5 {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1024px;
+    justify-content: space-between;
+}
+
+.formulario h2 {
+    color: #fff;
+    font-size: 35px;
+    margin: 0 auto;
+}
+
+.email h2{
+    font-size: 30px;
+    padding: 10px 0 15px 0;
+}
+
+.email p {
+    color: #fff;
+}
+
+form{
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form .btn-enviar {
+    width: 100px;
+    margin: 0 auto;
+}
+
+form input, textarea {
+    background-color: #0f0f106c;
+    border: solid 1px #00ffff;
+    border-radius: 2px;
+    color: #fff;
+    outline: 0;
+    resize: none;
+    max-height: 200px;
+    transition: ease-in-out 0.3s;
+}
+
+.form textarea {
+    resize: none;
+}
+
+.email {
+    width: 40%;
+}
+
+textarea:hover, form input:hover {
+    box-shadow: #00ffffb3  0 0 10px 2px;
+    transition: calc(1.03);
+}
+
+@media (max-width: 1024px) {
+
+    .flex-5 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flex-5 .email .creditos h2 {
+        font-size: 32px;
+    }
+
+    .flex-5 .email .creditos p {
+        font-size: 20px;
+    }
+}

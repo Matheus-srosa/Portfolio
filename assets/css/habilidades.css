@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css2?family=Saira&display=swap);
+
+/* INICIO PAGINA DE HABILIDADES */
+
+#habilidades .flex-4 {
+    background-color: #000000;
+    padding: 90px 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#habilidades h2 {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-size: 35px;
+}
+
+#habilidades p {
+    color: #fff;
+    text-align: justify;
+}
+
+.skills-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap:50px;
+    padding-bottom: 70px;
+    max-width: 50%;
+}
+
+.icon-habilidades {
+    width: 106px;
+    height: 106px;
+    background-color: #C4C4C4;
+    border-radius: 20px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: ease 0.3s;
+}
+
+.icon-habilidades:hover{
+    background-color: #ffffff;
+    transform: scale(1.05);
+}
+
+@media (max-width: 1024px){
+    
+    #habilidades .flex-4 {
+        max-height: 110vh;
+    }
+
+    .skills-box {
+        max-width: 40%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #habilidades h2 {
+        font-size: 32px;
+        padding: 20px 0 90px 0;
+    }
+}
