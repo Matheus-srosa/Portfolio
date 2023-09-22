@@ -31,6 +31,11 @@
     box-shadow: rgba(1, 56, 56, 0.608) 1px 6px 6px;
 }
 
+.icons-front-end {
+    position: relative;
+    margin: -40px 0;
+}
+
 #sobre-mim{
     background-color: #000;
     width: 100%;
