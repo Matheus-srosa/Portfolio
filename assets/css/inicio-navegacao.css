@@ -167,7 +167,7 @@ span {
     }
 }
 
-.menu-mobile {
+.menu-mobile, .abrir-menu {
     display: none;
 }
 
@@ -219,6 +219,10 @@ span {
     .abrir-menu {
         color: #00FFFF;
         font-size: 30px;
+    }
+
+    .abrir-menu {
+        display: block;
     }
 
     .menu-mobile {
