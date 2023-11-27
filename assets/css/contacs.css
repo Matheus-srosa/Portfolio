@@ -6,10 +6,6 @@
     margin: 0;
 }
 
-body {
-    background: linear-gradient(to right, black, #00aaff);
-}
-
 body::-webkit-scrollbar {
     width: 10px;
 }
@@ -27,7 +23,6 @@ body::-webkit-scrollbar-thumb {
 /* Fim estilo geral */
 
 body {
-    text-align: center;
     height: 100%;
     display: flex;
     flex-direction: column;
